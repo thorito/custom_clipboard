@@ -6,8 +6,9 @@ import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 /// Platform implementations should extend this class
 /// rather than implement it as `CustomClipboard`.
 /// Extending this class (using `extends`) ensures that the subclass will get
-/// the default implementation, while platform implementations that `implements`
-///  this interface will be broken by newly added [CustomClipboardPlatform] methods.
+/// the default implementation, while platform implementations
+/// that `implements` this interface will be broken by newly added
+/// [CustomClipboardPlatform] methods.
 abstract class CustomClipboardPlatform extends PlatformInterface {
   /// Constructs a CustomClipboardPlatform.
   CustomClipboardPlatform() : super(token: _token);
@@ -22,7 +23,8 @@ abstract class CustomClipboardPlatform extends PlatformInterface {
   static CustomClipboardPlatform get instance => _instance;
 
   /// Platform-specific plugins should set this with their own platform-specific
-  /// class that extends [CustomClipboardPlatform] when they register themselves.
+  /// class that extends [CustomClipboardPlatform] when they
+  /// register themselves.
   static set instance(CustomClipboardPlatform instance) {
     PlatformInterface.verify(instance, _token);
     _instance = instance;
