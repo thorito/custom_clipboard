@@ -4,8 +4,6 @@ version: 0.0.1
 repository:  https://github.com/thorito/custom_clipboard.git
 issue_tracker:  https://github.com/thorito/custom_clipboard/issues?q=is%3Aissue+is%3Aopen
 
-publish_to: none
-
 environment:
   sdk: ^3.5.0
   flutter: ">=3.24.1"
@@ -21,7 +19,6 @@ flutter:
 
 dependencies:
   custom_clipboard_platform_interface: ^0.0.1
-    #path: ../custom_clipboard_platform_interface
 
   flutter:
     sdk: flutter
