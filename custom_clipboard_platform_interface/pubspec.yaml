@@ -1,0 +1,20 @@
+name: custom_clipboard_platform_interface
+description: A common platform interface for the custom_clipboard plugin.
+version: 0.0.1
+repository:  https://github.com/thorito/custom_clipboard.git
+issue_tracker:  https://github.com/thorito/custom_clipboard/issues?q=is%3Aissue+is%3Aopen
+
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^7.0.0

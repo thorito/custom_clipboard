@@ -1,0 +1,23 @@
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/custom_clipboard"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/custom_clipboard/example"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/custom_clipboard_platform_interface"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/custom_clipboard_android"
+    schedule:
+      interval: "daily"
