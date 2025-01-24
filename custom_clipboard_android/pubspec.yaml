@@ -8,6 +8,7 @@ publish_to: none
 
 environment:
   sdk: ^3.5.0
+  flutter: ">=3.24.1"
 
 flutter:
   plugin:
@@ -19,7 +20,7 @@ flutter:
         dartPluginClass: CustomClipboardAndroid
 
 dependencies:
-  custom_clipboard_platform_interface: any
+  custom_clipboard_platform_interface: ^0.0.1
     #path: ../custom_clipboard_platform_interface
 
   flutter:
