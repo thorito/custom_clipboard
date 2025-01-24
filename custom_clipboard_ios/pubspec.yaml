@@ -1,0 +1,31 @@
+name: custom_clipboard_ios
+description: iOS implementation of the custom_clipboard plugin
+version: 0.0.1
+repository:  https://github.com/thorito/custom_clipboard.git
+issue_tracker:  https://github.com/thorito/custom_clipboard/issues?q=is%3Aissue+is%3Aopen
+
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+flutter:
+  plugin:
+    implements: custom_clipboard
+    platforms:
+      ios:
+        pluginClass: CustomClipboardPlugin
+        dartPluginClass: CustomClipboardIOS
+
+dependencies:
+  custom_clipboard_platform_interface:
+    path: ../custom_clipboard_platform_interface
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+  very_good_analysis: ^7.0.0
