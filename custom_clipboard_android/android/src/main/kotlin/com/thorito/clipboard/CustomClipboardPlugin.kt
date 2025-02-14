@@ -3,7 +3,10 @@ package com.thorito.clipboard
 import androidx.annotation.NonNull
 
 import android.content.ClipboardManager
+import android.content.ClipData
 import android.content.Context
+import android.os.Build
+import androidx.annotation.NonNull
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
@@ -23,7 +26,12 @@ class CustomClipboardPlugin : FlutterPlugin, MethodCallHandler {
     override fun onMethodCall(@NonNull call: MethodCall, @NonNull result: Result) {
         if (call.method == "clearClipboard") {
             val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
-            clipboard.clearPrimaryClip()
+
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.P) {
+                clipboard.clearPrimaryClip()
+            } else {
+                clipboard.setPrimaryClip(ClipData.newPlainText("", ""))
+            }
             result.success(null)
         } else {
             result.notImplemented()
