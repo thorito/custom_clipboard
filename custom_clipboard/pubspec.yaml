@@ -2,7 +2,7 @@ name: custom_clipboard
 description: Clipboard plugin
 repository:  https://github.com/thorito/custom_clipboard.git
 issue_tracker:  https://github.com/thorito/custom_clipboard/issues?q=is%3Aissue+is%3Aopen
-version: 0.0.2
+version: 0.0.3
 
 environment:
   sdk: ^3.5.0
@@ -15,7 +15,7 @@ flutter:
         default_package: custom_clipboard_android
 
 dependencies:
-  custom_clipboard_android: ^0.0.2
+  custom_clipboard_android: ^0.0.3
   custom_clipboard_platform_interface: ^0.0.1
 
   flutter:

@@ -1,7 +1,5 @@
 package com.thorito.clipboard
 
-import androidx.annotation.NonNull
-
 import android.content.ClipboardManager
 import android.content.ClipData
 import android.content.Context

@@ -1,3 +1,7 @@
+## 0.0.3
+
+* fix: duplicate import
+
 ## 0.0.2
 
 * fix: call method clearClipboard on old versions devices are not supported.
