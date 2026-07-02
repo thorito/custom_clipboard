@@ -1,6 +1,5 @@
 plugins {
     id "com.android.application"
-    id "kotlin-android"
     id "dev.flutter.flutter-gradle-plugin"
 }
 
@@ -35,7 +34,7 @@ android {
 
     defaultConfig {
         applicationId "com.thorito.clipboard.example"
-        minSdkVersion flutterMinSdkVersion.toInteger()
+        minSdkVersion 24
         targetSdkVersion flutterCompileSdkVersion.toInteger()
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
