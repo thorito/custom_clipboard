@@ -1,8 +1,11 @@
+## 0.0.3
+
+* chore: add Swift Package Manager support
+
 ## 0.0.2
 
 * feat: implement clearClipboard method
 * fix: correct method channel name from custom_clipboard_ios to custom_clipboard
-* chore: add Swift Package Manager support
 
 ## 0.0.1
 
