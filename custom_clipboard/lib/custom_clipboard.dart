@@ -13,12 +13,9 @@ Future<String?> getClipboard() async {
 
 /// Invoke the platform-specific method to clear the clipboard.
 Future<void> clearClipboard() async {
-  if (Platform.isAndroid) {
+  if (Platform.isAndroid || Platform.isIOS) {
     await _method.clearClipboard();
-  }
-
-  final data = await getClipboard();
-  if (data != null && data.isNotEmpty) {
+  } else {
     await Clipboard.setData(const ClipboardData(text: ''));
   }
 }

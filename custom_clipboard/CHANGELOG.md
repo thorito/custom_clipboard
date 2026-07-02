@@ -1,3 +1,8 @@
+## 0.0.4
+
+* feat: add iOS support for clearClipboard
+* fix: use path-based dependency for custom_clipboard_android
+
 ## 0.0.3
 
 * fix: duplicate import

@@ -6,7 +6,7 @@ import 'package:flutter/services.dart';
 class CustomClipboardIOS extends CustomClipboardPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('custom_clipboard_ios');
+  final methodChannel = const MethodChannel('custom_clipboard');
 
   /// Registers this class as the default instance of [CustomClipboardPlatform]
   static void registerWith() {
