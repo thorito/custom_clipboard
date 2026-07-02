@@ -1,3 +1,9 @@
+## 0.0.4
+
+* feat: migrate to Built-in Kotlin
+* chore: update AGP to 8.11.1
+* chore: add jvmToolchain(17) for consistent JVM target
+
 ## 0.0.3
 
 * fix: duplicate import
