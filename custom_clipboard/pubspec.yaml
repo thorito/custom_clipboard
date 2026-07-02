@@ -2,7 +2,7 @@ name: custom_clipboard
 description: Clipboard plugin
 repository:  https://github.com/thorito/custom_clipboard.git
 issue_tracker:  https://github.com/thorito/custom_clipboard/issues?q=is%3Aissue+is%3Aopen
-version: 0.0.4+2
+version: 0.0.4
 
 environment:
   sdk: '>=3.9.0 <4.0.0'
