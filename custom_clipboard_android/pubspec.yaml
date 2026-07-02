@@ -18,7 +18,7 @@ flutter:
         dartPluginClass: CustomClipboardAndroid
 
 dependencies:
-  custom_clipboard_platform_interface: ^0.0.1
+  custom_clipboard_platform_interface: ^0.0.2
 
   flutter:
     sdk: flutter
