@@ -13,6 +13,8 @@ flutter:
     platforms:
       android:
         default_package: custom_clipboard_android
+      ios:
+        default_package: custom_clipboard_ios
 
 dependencies:
   custom_clipboard_android: ^0.0.4
