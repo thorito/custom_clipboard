@@ -16,7 +16,7 @@ flutter:
 
 dependencies:
   custom_clipboard_android: ^0.0.4
-  custom_clipboard_platform_interface: ^0.0.1
+  custom_clipboard_platform_interface: ^0.0.2
 
   flutter:
     sdk: flutter
