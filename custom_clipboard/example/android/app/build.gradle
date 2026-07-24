@@ -11,7 +11,7 @@ if (localPropertiesFile.exists()) {
     }
 }
 
-def flutterCompileSdkVersion = '35'
+def flutterCompileSdkVersion = '36'
 
 def flutterMinSdkVersion = localProperties.getProperty('flutter.minSdkVersion')
 if (flutterMinSdkVersion == null) {
