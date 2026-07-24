@@ -1,3 +1,7 @@
+## 0.0.6
+
+* chore: update custom_clipboard_android to ^0.0.6 (Built-in Kotlin, compileSdk 36)
+
 ## 0.0.5
 
 * chore: update custom_clipboard_android dependency to ^0.0.5 (AGP 9.2.1, Kotlin 2.4.10)
