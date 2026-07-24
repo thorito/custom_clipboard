@@ -1,3 +1,8 @@
+## 0.0.5
+
+* chore: update AGP to 9.2.1, Kotlin to 2.4.10, Gradle to 9.4.1
+* refactor: use declarative Kotlin plugin instead of legacy implicit resolution
+
 ## 0.0.4
 
 * feat: migrate to Built-in Kotlin

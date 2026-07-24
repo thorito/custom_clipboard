@@ -1,3 +1,7 @@
+## 0.0.5
+
+* chore: update custom_clipboard_android dependency to ^0.0.5 (AGP 9.2.1, Kotlin 2.4.10)
+
 ## 0.0.4
 
 * feat: add iOS support for clearClipboard
